@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0CC4FD1C17997E00C4BFEA /* NewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CC4FC1C17997E00C4BFEA /* NewProjectViewController.swift */; };
+		BB0CC5021C17AC4B00C4BFEA /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CC5011C17AC4B00C4BFEA /* UIView+Inspectable.swift */; };
+		BB0CC5061C17ACAC00C4BFEA /* JLBaseTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CC5041C17ACAC00C4BFEA /* JLBaseTransitionAnimator.swift */; };
+		BB0CC5071C17ACAC00C4BFEA /* JLSlideTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CC5051C17ACAC00C4BFEA /* JLSlideTransitionAnimator.swift */; };
+		BB0CC5091C17ACBC00C4BFEA /* JLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0CC5081C17ACBC00C4BFEA /* JLViewController.swift */; };
+		BB0D6B7C1C16616000BEB81A /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6B7B1C16616000BEB81A /* CalculatorViewController.swift */; };
+		BB0D6B7E1C16642900BEB81A /* MyLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6B7D1C16642900BEB81A /* MyLogsViewController.swift */; };
+		BB0D6B811C16649600BEB81A /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6B801C16649600BEB81A /* ContainerView.swift */; };
+		BB0D6B841C16697800BEB81A /* BackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0D6B821C16697800BEB81A /* BackButton@2x.png */; };
+		BB0D6B851C16697800BEB81A /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0D6B831C16697800BEB81A /* BackButton.png */; };
+		BB0D6B8A1C16762A00BEB81A /* XButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0D6B881C16762A00BEB81A /* XButton@2x.png */; };
+		BB0D6B8B1C16762A00BEB81A /* XButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0D6B891C16762A00BEB81A /* XButton.png */; };
+		BB0D6B8F1C1679A400BEB81A /* FreelanceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6B8E1C1679A400BEB81A /* FreelanceLog.swift */; };
+		BB0D6B911C167A1400BEB81A /* MyLogsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D6B901C167A1400BEB81A /* MyLogsCell.swift */; };
+		BB18873F1C1A56EB006EA7E5 /* LogSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB18873E1C1A56EB006EA7E5 /* LogSegment.swift */; };
+		BB1887411C1A5701006EA7E5 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1887401C1A5701006EA7E5 /* AppManager.swift */; };
+		BB1887431C1A5714006EA7E5 /* LogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1887421C1A5714006EA7E5 /* LogDetailViewController.swift */; };
+		BBA34B071C14E355008B2313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA34B061C14E355008B2313 /* AppDelegate.swift */; };
+		BBA34B0C1C14E355008B2313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA34B0A1C14E355008B2313 /* Main.storyboard */; };
+		BBA34B0E1C14E355008B2313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA34B0D1C14E355008B2313 /* Assets.xcassets */; };
+		BBA34B111C14E355008B2313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA34B0F1C14E355008B2313 /* LaunchScreen.storyboard */; };
+		BBA34B1D1C14E446008B2313 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA34B1C1C14E446008B2313 /* MainViewController.swift */; };
+		BBA34B1F1C14E455008B2313 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA34B1E1C14E455008B2313 /* ContainerViewController.swift */; };
+		BBA34B251C14EA54008B2313 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA34B221C14EA54008B2313 /* Background@2x.png */; };
+		BBA34B261C14EA54008B2313 /* Background-iphone5hd.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA34B231C14EA54008B2313 /* Background-iphone5hd.png */; };
+		BBA34B271C14EA54008B2313 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA34B241C14EA54008B2313 /* Background.png */; };
+		BBBC36451C1DFF950026C956 /* TimeSegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBC36441C1DFF950026C956 /* TimeSegmentCell.swift */; };
+		BBBC36511C1E11F10026C956 /* Circle_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC36471C1E11F10026C956 /* Circle_1@2x.png */; };
+		BBBC36521C1E11F10026C956 /* Circle_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC36481C1E11F10026C956 /* Circle_1.png */; };
+		BBBC36531C1E11F10026C956 /* Circle_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC36491C1E11F10026C956 /* Circle_2@2x.png */; };
+		BBBC36541C1E11F10026C956 /* Circle_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC364A1C1E11F10026C956 /* Circle_2.png */; };
+		BBBC36551C1E11F10026C956 /* Circle_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC364B1C1E11F10026C956 /* Circle_3@2x.png */; };
+		BBBC36561C1E11F10026C956 /* Circle_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC364C1C1E11F10026C956 /* Circle_3.png */; };
+		BBBC36571C1E11F10026C956 /* Circle_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC364D1C1E11F10026C956 /* Circle_4@2x.png */; };
+		BBBC36581C1E11F10026C956 /* Circle_4.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC364E1C1E11F10026C956 /* Circle_4.png */; };
+		BBBC36591C1E11F10026C956 /* Circle_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC364F1C1E11F10026C956 /* Circle_5@2x.png */; };
+		BBBC365A1C1E11F10026C956 /* Circle_5.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBC36501C1E11F10026C956 /* Circle_5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB0CC4FC1C17997E00C4BFEA /* NewProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProjectViewController.swift; sourceTree = "<group>"; };
+		BB0CC5011C17AC4B00C4BFEA /* UIView+Inspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
+		BB0CC5041C17ACAC00C4BFEA /* JLBaseTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLBaseTransitionAnimator.swift; sourceTree = "<group>"; };
+		BB0CC5051C17ACAC00C4BFEA /* JLSlideTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLSlideTransitionAnimator.swift; sourceTree = "<group>"; };
+		BB0CC5081C17ACBC00C4BFEA /* JLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLViewController.swift; sourceTree = "<group>"; };
+		BB0D6B7B1C16616000BEB81A /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		BB0D6B7D1C16642900BEB81A /* MyLogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLogsViewController.swift; sourceTree = "<group>"; };
+		BB0D6B801C16649600BEB81A /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		BB0D6B821C16697800BEB81A /* BackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackButton@2x.png"; sourceTree = "<group>"; };
+		BB0D6B831C16697800BEB81A /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		BB0D6B881C16762A00BEB81A /* XButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XButton@2x.png"; sourceTree = "<group>"; };
+		BB0D6B891C16762A00BEB81A /* XButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XButton.png; sourceTree = "<group>"; };
+		BB0D6B8E1C1679A400BEB81A /* FreelanceLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelanceLog.swift; sourceTree = "<group>"; };
+		BB0D6B901C167A1400BEB81A /* MyLogsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLogsCell.swift; sourceTree = "<group>"; };
+		BB18873E1C1A56EB006EA7E5 /* LogSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogSegment.swift; sourceTree = "<group>"; };
+		BB1887401C1A5701006EA7E5 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		BB1887421C1A5714006EA7E5 /* LogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
+		BBA34B031C14E355008B2313 /* Freelance Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Freelance Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA34B061C14E355008B2313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBA34B0B1C14E355008B2313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBA34B0D1C14E355008B2313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBA34B101C14E355008B2313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBA34B121C14E355008B2313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA34B1C1C14E446008B2313 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BBA34B1E1C14E455008B2313 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		BBA34B221C14EA54008B2313 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		BBA34B231C14EA54008B2313 /* Background-iphone5hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-iphone5hd.png"; sourceTree = "<group>"; };
+		BBA34B241C14EA54008B2313 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		BBBC36441C1DFF950026C956 /* TimeSegmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSegmentCell.swift; sourceTree = "<group>"; };
+		BBBC36471C1E11F10026C956 /* Circle_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle_1@2x.png"; sourceTree = "<group>"; };
+		BBBC36481C1E11F10026C956 /* Circle_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_1.png; sourceTree = "<group>"; };
+		BBBC36491C1E11F10026C956 /* Circle_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle_2@2x.png"; sourceTree = "<group>"; };
+		BBBC364A1C1E11F10026C956 /* Circle_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_2.png; sourceTree = "<group>"; };
+		BBBC364B1C1E11F10026C956 /* Circle_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle_3@2x.png"; sourceTree = "<group>"; };
+		BBBC364C1C1E11F10026C956 /* Circle_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_3.png; sourceTree = "<group>"; };
+		BBBC364D1C1E11F10026C956 /* Circle_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle_4@2x.png"; sourceTree = "<group>"; };
+		BBBC364E1C1E11F10026C956 /* Circle_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_4.png; sourceTree = "<group>"; };
+		BBBC364F1C1E11F10026C956 /* Circle_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle_5@2x.png"; sourceTree = "<group>"; };
+		BBBC36501C1E11F10026C956 /* Circle_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle_5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA34B001C14E354008B2313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0CC4FE1C17ABF800C4BFEA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CC5081C17ACBC00C4BFEA /* JLViewController.swift */,
+				BB0CC5031C17AC5A00C4BFEA /* ViewController Transitions */,
+				BB0CC5001C17AC1A00C4BFEA /* Extensions */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BB0CC4FF1C17AC0000C4BFEA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D6B8D1C16797500BEB81A /* Models */,
+				BBA34B1B1C14E3A1008B2313 /* View Controllers */,
+				BB0D6B7F1C16646E00BEB81A /* Views */,
+				BB0D6B8C1C16796C00BEB81A /* Table Cells */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BB0CC5001C17AC1A00C4BFEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CC5011C17AC4B00C4BFEA /* UIView+Inspectable.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BB0CC5031C17AC5A00C4BFEA /* ViewController Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CC5041C17ACAC00C4BFEA /* JLBaseTransitionAnimator.swift */,
+				BB0CC5051C17ACAC00C4BFEA /* JLSlideTransitionAnimator.swift */,
+			);
+			name = "ViewController Transitions";
+			sourceTree = "<group>";
+		};
+		BB0D6B7F1C16646E00BEB81A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D6B801C16649600BEB81A /* ContainerView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BB0D6B861C16697D00BEB81A /* Back Button */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D6B831C16697800BEB81A /* BackButton.png */,
+				BB0D6B821C16697800BEB81A /* BackButton@2x.png */,
+			);
+			name = "Back Button";
+			sourceTree = "<group>";
+		};
+		BB0D6B871C16762000BEB81A /* X-Button */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D6B891C16762A00BEB81A /* XButton.png */,
+				BB0D6B881C16762A00BEB81A /* XButton@2x.png */,
+			);
+			name = "X-Button";
+			sourceTree = "<group>";
+		};
+		BB0D6B8C1C16796C00BEB81A /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D6B901C167A1400BEB81A /* MyLogsCell.swift */,
+				BBBC36441C1DFF950026C956 /* TimeSegmentCell.swift */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		BB0D6B8D1C16797500BEB81A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0D6B8E1C1679A400BEB81A /* FreelanceLog.swift */,
+				BB18873E1C1A56EB006EA7E5 /* LogSegment.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BBA34AFA1C14E354008B2313 = {
+			isa = PBXGroup;
+			children = (
+				BBA34B051C14E355008B2313 /* Freelance Logger */,
+				BBA34B041C14E355008B2313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA34B041C14E355008B2313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA34B031C14E355008B2313 /* Freelance Logger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA34B051C14E355008B2313 /* Freelance Logger */ = {
+			isa = PBXGroup;
+			children = (
+				BBA34B0F1C14E355008B2313 /* LaunchScreen.storyboard */,
+				BBA34B0A1C14E355008B2313 /* Main.storyboard */,
+				BBA34B061C14E355008B2313 /* AppDelegate.swift */,
+				BB1887401C1A5701006EA7E5 /* AppManager.swift */,
+				BBA34B1A1C14E37D008B2313 /* Classes */,
+				BBA34B191C14E373008B2313 /* Resources */,
+				BBA34B181C14E367008B2313 /* Supporting Files */,
+			);
+			path = "Freelance Logger";
+			sourceTree = "<group>";
+		};
+		BBA34B181C14E367008B2313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA34B121C14E355008B2313 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBA34B191C14E373008B2313 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BBA34B0D1C14E355008B2313 /* Assets.xcassets */,
+				BBA34B201C14EA2D008B2313 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBA34B1A1C14E37D008B2313 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CC4FE1C17ABF800C4BFEA /* Helpers */,
+				BB0CC4FF1C17AC0000C4BFEA /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BBA34B1B1C14E3A1008B2313 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BBA34B1E1C14E455008B2313 /* ContainerViewController.swift */,
+				BBA34B1C1C14E446008B2313 /* MainViewController.swift */,
+				BB0D6B7D1C16642900BEB81A /* MyLogsViewController.swift */,
+				BB0D6B7B1C16616000BEB81A /* CalculatorViewController.swift */,
+				BB0CC4FC1C17997E00C4BFEA /* NewProjectViewController.swift */,
+				BB1887421C1A5714006EA7E5 /* LogDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BBA34B201C14EA2D008B2313 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC36461C1E11E10026C956 /* Back Circles */,
+				BB0D6B861C16697D00BEB81A /* Back Button */,
+				BBA34B211C14EA3A008B2313 /* Background */,
+				BB0D6B871C16762000BEB81A /* X-Button */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BBA34B211C14EA3A008B2313 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				BBA34B241C14EA54008B2313 /* Background.png */,
+				BBA34B221C14EA54008B2313 /* Background@2x.png */,
+				BBA34B231C14EA54008B2313 /* Background-iphone5hd.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		BBBC36461C1E11E10026C956 /* Back Circles */ = {
+			isa = PBXGroup;
+			children = (
+				BBBC36481C1E11F10026C956 /* Circle_1.png */,
+				BBBC36471C1E11F10026C956 /* Circle_1@2x.png */,
+				BBBC364A1C1E11F10026C956 /* Circle_2.png */,
+				BBBC36491C1E11F10026C956 /* Circle_2@2x.png */,
+				BBBC364C1C1E11F10026C956 /* Circle_3.png */,
+				BBBC364B1C1E11F10026C956 /* Circle_3@2x.png */,
+				BBBC364E1C1E11F10026C956 /* Circle_4.png */,
+				BBBC364D1C1E11F10026C956 /* Circle_4@2x.png */,
+				BBBC36501C1E11F10026C956 /* Circle_5.png */,
+				BBBC364F1C1E11F10026C956 /* Circle_5@2x.png */,
+			);
+			name = "Back Circles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA34B021C14E354008B2313 /* Freelance Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA34B151C14E355008B2313 /* Build configuration list for PBXNativeTarget "Freelance Logger" */;
+			buildPhases = (
+				BBA34AFF1C14E354008B2313 /* Sources */,
+				BBA34B001C14E354008B2313 /* Frameworks */,
+				BBA34B011C14E354008B2313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Freelance Logger";
+			productName = "Freelance Logger";
+			productReference = BBA34B031C14E355008B2313 /* Freelance Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA34AFB1C14E354008B2313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jaron Lowe";
+				TargetAttributes = {
+					BBA34B021C14E354008B2313 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UL3RBMBKF2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BBA34AFE1C14E354008B2313 /* Build configuration list for PBXProject "Freelance Logger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBA34AFA1C14E354008B2313;
+			productRefGroup = BBA34B041C14E355008B2313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA34B021C14E354008B2313 /* Freelance Logger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA34B011C14E354008B2313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0D6B8B1C16762A00BEB81A /* XButton.png in Resources */,
+				BBA34B111C14E355008B2313 /* LaunchScreen.storyboard in Resources */,
+				BBBC36551C1E11F10026C956 /* Circle_3@2x.png in Resources */,
+				BBBC36561C1E11F10026C956 /* Circle_3.png in Resources */,
+				BB0D6B841C16697800BEB81A /* BackButton@2x.png in Resources */,
+				BBBC36511C1E11F10026C956 /* Circle_1@2x.png in Resources */,
+				BB0D6B8A1C16762A00BEB81A /* XButton@2x.png in Resources */,
+				BBA34B261C14EA54008B2313 /* Background-iphone5hd.png in Resources */,
+				BBA34B251C14EA54008B2313 /* Background@2x.png in Resources */,
+				BBBC365A1C1E11F10026C956 /* Circle_5.png in Resources */,
+				BBA34B271C14EA54008B2313 /* Background.png in Resources */,
+				BBA34B0E1C14E355008B2313 /* Assets.xcassets in Resources */,
+				BBBC36521C1E11F10026C956 /* Circle_1.png in Resources */,
+				BBBC36581C1E11F10026C956 /* Circle_4.png in Resources */,
+				BBBC36531C1E11F10026C956 /* Circle_2@2x.png in Resources */,
+				BB0D6B851C16697800BEB81A /* BackButton.png in Resources */,
+				BBBC36571C1E11F10026C956 /* Circle_4@2x.png in Resources */,
+				BBBC36541C1E11F10026C956 /* Circle_2.png in Resources */,
+				BBA34B0C1C14E355008B2313 /* Main.storyboard in Resources */,
+				BBBC36591C1E11F10026C956 /* Circle_5@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA34AFF1C14E354008B2313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA34B1D1C14E446008B2313 /* MainViewController.swift in Sources */,
+				BB0CC4FD1C17997E00C4BFEA /* NewProjectViewController.swift in Sources */,
+				BB0D6B911C167A1400BEB81A /* MyLogsCell.swift in Sources */,
+				BB0CC5061C17ACAC00C4BFEA /* JLBaseTransitionAnimator.swift in Sources */,
+				BB18873F1C1A56EB006EA7E5 /* LogSegment.swift in Sources */,
+				BBA34B1F1C14E455008B2313 /* ContainerViewController.swift in Sources */,
+				BB1887411C1A5701006EA7E5 /* AppManager.swift in Sources */,
+				BB0CC5091C17ACBC00C4BFEA /* JLViewController.swift in Sources */,
+				BB0D6B8F1C1679A400BEB81A /* FreelanceLog.swift in Sources */,
+				BB0D6B811C16649600BEB81A /* ContainerView.swift in Sources */,
+				BB0D6B7E1C16642900BEB81A /* MyLogsViewController.swift in Sources */,
+				BB0CC5021C17AC4B00C4BFEA /* UIView+Inspectable.swift in Sources */,
+				BBBC36451C1DFF950026C956 /* TimeSegmentCell.swift in Sources */,
+				BB1887431C1A5714006EA7E5 /* LogDetailViewController.swift in Sources */,
+				BB0D6B7C1C16616000BEB81A /* CalculatorViewController.swift in Sources */,
+				BBA34B071C14E355008B2313 /* AppDelegate.swift in Sources */,
+				BB0CC5071C17ACAC00C4BFEA /* JLSlideTransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBA34B0A1C14E355008B2313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA34B0B1C14E355008B2313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBA34B0F1C14E355008B2313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA34B101C14E355008B2313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBA34B131C14E355008B2313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBA34B141C14E355008B2313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA34B161C14E355008B2313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Freelance Logger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lowe.freelancelogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BBA34B171C14E355008B2313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Freelance Logger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lowe.freelancelogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA34AFE1C14E354008B2313 /* Build configuration list for PBXProject "Freelance Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA34B131C14E355008B2313 /* Debug */,
+				BBA34B141C14E355008B2313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA34B151C14E355008B2313 /* Build configuration list for PBXNativeTarget "Freelance Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA34B161C14E355008B2313 /* Debug */,
+				BBA34B171C14E355008B2313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA34AFB1C14E354008B2313 /* Project object */;
+}
